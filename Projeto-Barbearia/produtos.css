@@ -20,6 +20,11 @@ nav li {
     margin: 0 0 0 15px;
 }
 
+nav a:hover{
+   color: #C78C19; 
+   text-decoration: underline;
+}
+
 
 nav a {
     text-transform: uppercase;
@@ -41,7 +46,11 @@ nav a {
     text-align: center;
     width: 30%;
     vertical-align: top;
-   
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: #000000 2px solid;
+    border-radius: 10px;
 }
 
 .produtos h2{
@@ -52,6 +61,7 @@ nav a {
 .produto-preco{
     font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .produto-descricao{
